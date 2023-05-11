@@ -44,3 +44,14 @@ Head over to your gitbash (as admin):
 <img width="375" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/07cc3ec5-00c8-42a6-a704-50c2f375e5cf">
 
 - type ```terraform apply``` then your instance should be able to see your instance running 
+
+### Creating VPC steps
+
+<img width="688" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/e79abb47-7270-4951-9b30-6032a85f5695">
+
+steps:
+1. create a vpc with CIDR block
+2. create ig and attach to vpc
+3. create public subnet in vpc with CIDR block, 
+4. create a public route table route table [allows traffic inside vpc and ig] attach it to public subnet
+5. create a security group for ec2 [allows traffic from ports 22, 80 and 3000] attach it to the ec2 instance

@@ -56,6 +56,8 @@ steps:
 4. create a public route table route table [allows traffic inside vpc and ig] attach it to public subnet
 5. create a security group for ec2 [allows traffic from ports 22, 80 and 3000] attach it to the ec2 instance
 
+You can use the information found here to help create the main.tf file: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+
 Your main.tf should look like so:
 - <img width="249" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/ed298bf9-e5ad-4f85-b511-24f410500e98">
 

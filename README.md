@@ -45,7 +45,7 @@ Head over to your gitbash (as admin):
 
 - type ```terraform apply``` then your instance should be able to see your instance running 
 
-### Creating VPC steps
+### Creating VPC with terraform
 
 <img width="688" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/e79abb47-7270-4951-9b30-6032a85f5695">
 
@@ -55,3 +55,14 @@ steps:
 3. create public subnet in vpc with CIDR block, 
 4. create a public route table route table [allows traffic inside vpc and ig] attach it to public subnet
 5. create a security group for ec2 [allows traffic from ports 22, 80 and 3000] attach it to the ec2 instance
+
+Your main.tf should look like so:
+<img width="249" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/ed298bf9-e5ad-4f85-b511-24f410500e98">
+<img width="208" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/398fbe93-e8c6-4345-9e89-8fb6caf5dd12">
+<img width="247" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/13675ae5-c4df-48cd-b3d4-b97a8219305b">
+<img width="224" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/89f6439c-f9e5-4db9-a0fb-0f5f2a46e2bc">
+
+type in ```terraform apply``` to create the resources
+
+
+

@@ -23,6 +23,7 @@ Head over to your gitbash (as admin):
 - ```terraform init``` - initialise terraform
 - to create a service type: ```nano main.tf``` and update the file as follows:
 <img width="446" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/0c0928b6-f335-4c56-9ba9-fb9775602667">
+
 - type ```terraform plan``` this execute the file and checks validation
 - this executes the file: ```terraform apply```. You should see your instance ruuning on aws
 - -run ```terraform destroy``` to destroy your resources 

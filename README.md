@@ -27,3 +27,20 @@ Head over to your gitbash (as admin):
 - type ```terraform plan``` this execute the file and checks validation
 - this executes the file: ```terraform apply```. You should see your instance ruuning on aws
 - run ```terraform destroy``` to destroy your resources 
+
+
+### Creating a variable
+
+- create a file called: variable.tf and save it in a file called .gitignore
+- add the following information to your .gitignore file:
+
+<img width="390" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/8e57b0c9-652e-4bad-a173-4730822b7d33">
+
+- add the following information to your variable.tf file:
+
+<img width="352" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/d03e91de-e6b3-4c1d-96e3-353078370d0b">
+
+- makes the following amendment to your main.tf file to include reference to the:
+<img width="375" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/07cc3ec5-00c8-42a6-a704-50c2f375e5cf">
+
+- type ```terraform apply``` then your instance should be able to see your instance running 

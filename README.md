@@ -26,4 +26,4 @@ Head over to your gitbash (as admin):
 
 - type ```terraform plan``` this execute the file and checks validation
 - this executes the file: ```terraform apply```. You should see your instance ruuning on aws
-- -run ```terraform destroy``` to destroy your resources 
+- run ```terraform destroy``` to destroy your resources 

@@ -40,7 +40,7 @@ Head over to your gitbash (as admin):
 
 <img width="352" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/d03e91de-e6b3-4c1d-96e3-353078370d0b">
 
-- makes the following amendment to your main.tf file to include reference to the:
+- makes the following amendment to your main.tf file to include reference to the new ami:
 <img width="375" alt="image" src="https://github.com/MutiatOba/iac_terraform/assets/118978642/07cc3ec5-00c8-42a6-a704-50c2f375e5cf">
 
 - type ```terraform apply``` then your instance should be able to see your instance running 
